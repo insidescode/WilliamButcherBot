@@ -86,16 +86,16 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "Click A Button To Get Started."
             ),
-            thumb_url="https://hamker.me/cy00x5x.png",
+            thumb_url="https://telegra.ph/file/290e5934c6a1b9a5cae3b.jpg",
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
-            title="Github Repo",
-            description="Get Github Respository Of Bot.",
+            title="Channel",
+            description="Join Channel",
             input_message_content=InputTextMessageContent(
-                "https://github.com/thehamkercat/WilliamButcherBot"
+                "https://t.me/Sluttyoreo"
             ),
-            thumb_url="https://hamker.me/gjc9fo3.png",
+            thumb_url="https://telegra.ph/file/4940d704d7985b940f659.jpg",
         ),
     ]
     answerss = await alive_function(answerss)
@@ -114,7 +114,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[William✨](https://github.com/thehamkercat/WilliamButcherBot):**
+**[Chip✨](https://t.me/Sluttyoreo):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
