@@ -45,11 +45,12 @@ async def repo(_, message):
         )
         count += 1
 
-    text = f"""[Github](https://github.com/thehamkercat/WilliamButcherBot) | [Group](t.me/PatheticProgrammers)
+    text = f"""[Channel](t.me/sluttyoreo) | [Group](t.me/beluga_chat)
 ```----------------
 | Contributors |
 ----------------```
-{list_of_users}"""
+@deeprajk
+@TagMatKarBKL"""
     await app.send_message(
         message.chat.id, text=text, disable_web_page_preview=True
     )
